@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="author"      content="Jeremiah Gallagher">
+  <meta name="date"        content=" October2017">
+  <meta name="description" content="This is my semester project Week 4 Debug Page">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" media="screen" href="main.css">
+  <title>J. Gallagher's Debug Information Page</title>
+  <script src="modernizr.custom.05819.js"></script>
+
+
+</head>
+<body>
+                       <!---           Wrapper           -->
+  <div id="wrapper">
+                       <!---          Heading           -->
+      <header>
+        <!-- <script>displayHeader();</script> -->
+      </header>
+                      <!---           Navigation           -->
+      <nav>
+      <!--  <script>displayNav();</script> -->
+      </nav>
+                      <!--            Main             -->
+      <main>
+        <h1>Error Trapping and Debugging HTML, CSS, and JavaScript</h1>
+        <h2>Syntax Errors</h2>
+        <p>Syntax errors occur whenever the script interpreter you are using does
+          not recognize a specific portion of code.  These errors are commonly caused
+          by mispelled words or missing symbols.  They can also be caused by trying to use
+          methods and functions that do not exist. Because Javascript is an interpreted
+          language, syntax errors may not be recognized until the program tries to
+          execute.  Some modern text-editing software, like Atom and Notepad++ are
+          equipped with tools that help to spot common syntax mistakes as they are written.
+          Syntax errors are easiest to find early on before you have a large amount of code to search
+          in order to find them.  Therrefore, my prefered method is to go back
+          every few lines and double check for spelling and oter syntax errors.
+        </p>
+        <h2>Run-Time Errors</h2>
+        <p>Run-Time Errors may occur while a javascript program is executing. They are
+          different from syntax errors in that they may be caused by syntax errors.
+          Run-Time errors occur when the interpreter is executing a program and tries to execute
+          code that it cannot.  The root of the issue may be a syntax error, or an
+          error caused by misplaced code elements, like local variables that should be global, and
+          vice versa.  Run-Time Errors are relatively easy to isolate since the console
+          will log the line at which the error occured in the code, and the type of
+          error that occured.
+        </p>
+        <h2>Logic Errors</h2>
+        <p> Logic Errors occur when you write code that functions in ways you did not
+          intend.  Logic Errors do not necessarily create Run-Time Errors, but will still
+          give undesired results.  Because of this, Logic Errors are often the hardest to find and
+          correct.  One exemple of a logic error might be an infinite loop programmed
+          into a function.  This happens when a function never meets the requirements
+          it has to break out of the loop it cycles while performing a task.  These types of errors
+          are best found by knowing what the intended outputs of a program are
+          supposed to be.  If you do not get the desired output from a specific Calculation
+          or other method, you can isolate the error to that method, or its related methods and fix
+          the error.  
+         </p><br><br>
+      </main>
+                      <!--           Footer          -->
+          <footer>
+          <!--  <script>displayFooter();</script> -->
+          </footer>
+    </div>
+     <script type="text/javascript" src="CSP.js"></script>
+  </body>
+</html>

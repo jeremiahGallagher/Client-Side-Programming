@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="author"      content="Jeremiah Gallagher">
+  <meta name="date"        content="September 2017">
+  <meta name="description" content="This is my semester project home page">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" media="screen" href="main.css">
+  <title>J. Gallagher's Semester Project Home Page</title>
+
+  <script src="modernizr.custom.05819.js"></script>
+</head>
+<body>
+                       <!---           Wrapper           -->
+  <div id="wrapper">
+                       <!---          Heading           -->
+      <header>
+      <!---   <script>displayHeader();</script>  -->
+      </header>
+                      <!---           Navigation           -->
+      <nav>
+        <!--  <script>displayNav();</script> -->
+      </nav>
+                      <!--            Main             -->
+      <main>
+        <h1> Body Mass Index</h1>
+        <p> For the purpose of learning functions only the integer portion
+            of the BMI value will be displayed.<br> Full featured error trapping
+            has not been included.
+        </p>
+        <form>
+
+           Weight (pounds 1-750)<br>
+           <input type="text"  id="weight" name="weight"><br><br>
+           Height (inches 1-100)<br>
+           <input type="text" id="height" name="height"><br><br>
+           BMI<br>
+            <input type="text" id="BMI" name="BMI" readonly><br><br>
+            <input type="button" id ="calcButton" value="Calculate BMI" onclick="calcBmi()">
+
+        </form>
+      </main>
+                      <!--           Footer          -->
+          <footer>
+            <!--  <script>displayFooter();</script> -->
+          </footer>
+    </div>
+    <script type="text/javascript" src="CSP.js"></script>
+  </body>
+</html>

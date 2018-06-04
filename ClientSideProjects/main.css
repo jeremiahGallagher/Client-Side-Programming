@@ -1,0 +1,141 @@
+/**********************************************************
+Project Name: Semester Project Page
+Author: Jeremiah Gallagher
+Version: 1.0
+Last Changed: September 5, 2017
+Primary Use: Screen
+
+Colors:
+   Primary color:
+   shade 0 = #277650-Green (background)
+   shade 1 = #76B295-lightest green (text)
+   shade 2 = #4A9470-Lighter green
+   shade 3 = #0F5935-Darker Green
+   shade 4 = #003B1F-Darkest Green
+
+   Other:
+          #FFFFFF- White (background and text)
+          #666666- Gray(text)
+
+Typography:
+  body: Arial, sans-serif
+  header: Georgia, serif, line-height 200%, text-align center
+  footer:font-size .70em, text-align center
+	nav: text-align center, font-weight bold
+
+
+**********************************************************/
+
+/********************  Entire Webpage ********************/
+
+body {
+		background-color: #FFFFFF;
+		color: #666666   ;
+		font-family: Arial, sans-serif;
+	 }
+
+
+.ggCenter{
+   padding-top: 25px;
+   padding-bottom: 25px;
+    text-align: center;
+}
+/************************* Header ************************/
+header {
+     display: block;
+		 background-color:#277650;
+		 color: #FFFFFF;
+		 line-height: 200%;
+		 font-family: Georgia, serif;
+     text-align: center;
+     padding: 5px;
+}
+
+
+/************************ Wrapper ************************/
+
+#wrapper {
+		   margin-left: auto;
+		   margin-right: auto;
+		   background-color: #white;
+		   min-width: 700px;
+		   max-width: 1024px;
+		   box-shadow: 3px 3px 3px 3px #666666;
+		   width: 80%;
+}
+
+
+
+/************************ Main ************************/
+
+main {
+   padding-left: 20px;
+   padding-right: 20px;
+   background-color: #FFFFFF;
+   padding-top: 1px;
+   padding-bottom: 1px;
+}
+
+h1 {
+	font-family: Georgia, serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding:5px;
+}
+
+/************************** Nav **************************/
+
+nav{
+    background-color: #277650;
+    border: none;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-weight: bold;
+}
+nav li{
+    display:inline;
+		color:#76B295;
+}
+nav a{
+    display:inline-block;
+    padding:10px;
+    color:#76B295;
+    text-decoration: none;
+}
+
+/************************* Footer ************************/
+
+footer {
+     font-size: .70em;
+		 text-align: center;
+		 padding: 10px;
+		 background-color: #FFFFFF;
+}
+
+/***********Table and link formatting for PrimeNumbers*******/
+
+table
+{
+margin-left: auto;
+margin-right: auto;
+}
+
+table, th, td {
+   border: 2px solid red;
+}
+
+.primeLink {
+  margin-left: auto;
+  margin-right: auto;
+}

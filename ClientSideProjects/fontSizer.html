@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title></title>
+</head>
+ 
+<body>
+<a href="#" onClick="setFontSize('75%')" value="75%">small</a>
+<a href="#" onClick="setFontSize('100%')" value="100%">normal</a>
+<a href="#" onClick="setFontSize('200%')" value="200%">larger</a>
+<a href="#" onClick="setFontSize('250%')" value="250%">x-larger</a>
+ 
+<div>Adjustable Text Sizer For The Browser Impaired</div>
+ 
+<script type="text/javascript" src="js/cookies.js"></script>
+<script type="text/javascript">
+function setFontSize(size) {
+    document.body.style.fontSize = size;
+    createCookie('fontsize', size, 90);
+}
+ 
+var fontsize = readCookie('fontsize');
+if (fontsize !== null) { // cookie exists
+    setFontSize(fontsize);
+}
+</script>
+</body>
+</html>
